@@ -1,0 +1,22 @@
+p {
+  color: pink;
+  text-align: center;
+}
+
+#test-id-1{
+  color:lightblue;
+}
+
+.test-class{
+  text-shadow: 5px 5px purple;
+}
+
+a:hover{
+  color: white;
+}
+
+h1 {
+  color: orange;
+  font-style: italic;
+  text-align: center;
+}
