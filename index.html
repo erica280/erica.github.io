@@ -3,36 +3,60 @@
 <head>
   <meta charset="utf-8">
   <title>Erica Hung</title>
+  <link rel="stylesheet" href="/css/styles.css" type="text/css">
+  <style>
+  @import url("https://use.typekit.net/wxa8vcn.css");
+  </style>
 </head>
-  <body style="background-color:#D5F5E3;">
-    <h1 style="color:#73C6B6;"><b style="font-family:verdana;">Erica Hung</b></h1>
-    <h3 style="color:#73C6B6;"><em style="font-family:verdana;">She/Her/Hers</em></h3>
-    <img src="img/me.jpg" alt="Photo of Me" width="200"/>
-
-    <h3 style="color:#73C6B6;"><b style="font-family:verdana;"id="EricaHung"><u>Navigation Bar</u></b></h3>
-    <ol>
+  <body>
+    <div>
+    <h3 id="EricaHung"><em>Erica Hung</em></h3>
+    <!--<img src="img/me.jpg" alt="Photo of Me" width="200"/>-->
+    </div>
+    <div id="NavBar">
+    <ul>
+      <li><a href="https://erica280.github.io">Home</a></li>
+      <li><a href="https://erica280.github.io/works">Works</a></li>
+      <li><a href="#AboutMe">About</a></li>
+      <!--
       <li><a href="https://erica280.github.io/assignment1">Technology Setup</a></li>
-      <li><a href="https://erica280.github.io">Hello Me!</a></li>
       <li><a href="https://erica280.github.io/assignment3">Kiwi Encyclopedia</a></li>
       <li><a href="https://erica280.github.io/assignment4">Pattern Library + Challenges</a></li>
       <li><a href="https://erica280.github.io/assignment5">HTML Challenges</a></li>
       <li><a href="https://youtu.be/TlXWB9B30Lw">Favorite YouTube Video</a></li>
-    </ol>
-
-    <p style="color:#73C6B6;"><b style="font-family:verdana;"><u>About Me</u></b></p>
-    <p style="font-family:verdana;">
+      -->
+    </ul>
+    </div>
+    <div id="AboutMe">
+    <h3>About Me</h3>
+    <p>
     I'm majoring in environmental design and I'm excited
     to make websites in this course! I hope to learn more
     about javascript and HTML, as well as other things
     that come along with making websites.
     </p>
-    <p style="color:#73C6B6;"><b style="font-family:verdana;"> <u>"Fun" Facts:</u></b></p>
-    <ul style="font-family:verdana;">
-    <li> Fluent in English, dry humor,  and boba </li>
-    <li> Pasta is life </li>
-    <li> Favorite movie: Inside Llewyn Davis </li>
-    <li> Always cold, except in the summer </li>
-    <li> Thinking about my next meal as I eat my current meal </li>
-    </ul>
+    <hr>
+    </div>
+    <div id="FunFacts">
+    <h3>"Fun" Facts:</h3>
+    <p>Fluent in English, dry humor,  and boba</p>
+    <p>Pasta is life </p>
+    <p>Favorite movie: <em>Inside Llewyn Davis</em></p>
+    <p>Always cold, except in the summer</p>
+    <p>Thinking about my next meal as I eat my current meal</p>
+    <hr>
+    </div>
+    <div id="Contact">
+      <h3>Contact</h3>
+      <p>Enter information below:</p>
+      <form>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="FName">First Name:</label><br>
+        <input type="text" id="FName" name="FName"><br>
+        <label for="LName">Last Name:</label><br>
+        <input type="text" id="LName" name="LName">
+      </form>
+    </div>
 </body>
 </html>

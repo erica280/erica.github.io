@@ -1,0 +1,71 @@
+body{
+  background-color: #FFFFFF;
+}
+
+#EricaHung{
+  font-family: scriptorama-markdown-jf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  letter-spacing: 12px;
+  text-align: center;
+  color: #9DBFC7;
+  width: 1423px;
+  height: 700px;
+  background-position: center;
+  background-size: 1423px 790px;
+  margin-top: 0px;
+  border-spacing: 0px;
+
+  background-image: url("../img/IMG_0351.jpg");
+}
+
+#NavBar{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  display: inline;
+}
+
+#AboutMe{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#FunFacts{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#Contact{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a:link, a:visited{
+  color: #FFFFFF;
+  background-color: #9DBFC7;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover{
+  color: #404852;
+}
