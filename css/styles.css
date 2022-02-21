@@ -11,8 +11,14 @@ body{
   text-align: center;
   color: #9DBFC7;
   background-position: center;
+  background-size: 1423px 790px;
+  height: 790px;
+  width: 1423px;
+  margin-top: 0px;
+  border-spacing: 0px;
   padding-bottom: 0;
   margin: 0;
+  background-image: url("../img/IMG_0351.jpg");
 }
 
 #NavBar{
