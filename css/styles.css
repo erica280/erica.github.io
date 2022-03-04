@@ -2,6 +2,10 @@ body{
   background-color: #FFFFFF;
 }
 
+p{
+  max-width: 66ch;
+}
+
 img{
   /*position: relative;
   left: 150px;
@@ -50,7 +54,7 @@ ul{
 }
 
 li{
-  display: inline;
+  display: inline-flex;
 }
 
 #AboutMe{
@@ -88,7 +92,7 @@ a:hover{
 
 @media screen and (max-width: 600px){
   #EricaHung{
-    flex: 100%;
+    font-size: 55px;
   }
   #NavBar{
     font-size: 17px;
@@ -96,10 +100,21 @@ a:hover{
   a:link, a:visited{
     padding: 15px 20px;
   }
-}
-@media screen and (max-width: 1900px){
-  #EricaHung{
-    flex: 100%;
+  #AboutMe{
+    font-size: 15px;
+  }
+  #FunFacts{
+    font-size: 15px;
+  }
+  #Contact{
+    font-size: 15px;
   }
 
+@media screen and (max-width: 1900px){
+  #FunFacts{
+    font-size: 15px;
+  }
+  #Contact{
+
+  }
 }
