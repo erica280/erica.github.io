@@ -4,6 +4,7 @@ body{
 
 p{
   max-width: 66ch;
+  text-align: center;
 }
 
 img{
@@ -17,6 +18,7 @@ img{
 
 h3{
   color: #E8AFA9;
+  text-align: center;
 }
 
 #EricaHung{
