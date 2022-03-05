@@ -4,7 +4,6 @@ body{
 
 p{
   max-width: 66ch;
-  text-align: center;
 }
 
 img{
@@ -18,7 +17,6 @@ img{
 
 h3{
   color: #E8AFA9;
-  text-align: center;
 }
 
 #EricaHung{
@@ -40,15 +38,10 @@ h3{
   font-size: 25px;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
 }
 
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 li{
@@ -88,12 +81,34 @@ a:hover{
   color: #A37A72;
 }
 
+@media screen and (max-width: 1920px){
+  #EricaHung{
+    display: flex;
+    font-size: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  #NavBar{
+    font-size: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+}
 @media screen and (max-width: 600px){
   #EricaHung{
+    display: flex;
     font-size: 55px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
   #NavBar{
     font-size: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
   a:link, a:visited{
     padding: 15px 20px;
@@ -107,6 +122,3 @@ a:hover{
   #Contact{
     font-size: 15px;
   }
-
-@media screen and (max-width: 1900px){
-}
