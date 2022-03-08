@@ -81,6 +81,20 @@ a:hover{
   color: #A37A72;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: pink;
+  padding: 10px;
+}
+.grid-item {
+  background-color: pink;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1920px){
   #EricaHung{
     display: flex;
