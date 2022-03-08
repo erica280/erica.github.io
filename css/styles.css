@@ -3,11 +3,11 @@ body{
 }
 
 p{
-  max-width: 66ch;
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  text-align: center;
 }
 
 img{
@@ -56,8 +56,8 @@ li{
   font-family: scriptorama-markdown-jf, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 100px;
-  letter-spacing: 12px;
+  font-size: 60px;
+  letter-spacing: 10px;
   text-align: center;
   color: #E8AFA9;
   padding-bottom: 0;
@@ -92,8 +92,8 @@ a:hover{
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 50px 50px 50px;
+  grid-auto-rows: minmax(50px, auto);
   background-color: pink;
   padding: 10px;
 }
