@@ -21,6 +21,11 @@ img{
 
 h3{
   color: #E8AFA9;
+  margin-bottom:0;
+}
+
+h4{
+  margin-top:0;
 }
 
 #EricaHung{
@@ -31,8 +36,16 @@ h3{
   letter-spacing: 12px;
   text-align: center;
   color: #E8AFA9;
-  padding-bottom: 0;
-  margin-bottom: 0;
+
+}
+
+#subtitle{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  color: #A1A1A1;
 }
 
 #NavBar{
@@ -69,6 +82,10 @@ li{
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+}
+
+#fun{
+  text-align: center;
 }
 
 #Contact{
