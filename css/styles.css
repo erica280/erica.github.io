@@ -4,6 +4,10 @@ body{
 
 p{
   max-width: 66ch;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 img{
@@ -89,6 +93,7 @@ a:hover{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-auto-rows: minmax(100px, auto);
   background-color: pink;
   padding: 10px;
 }
