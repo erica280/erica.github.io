@@ -7,6 +7,8 @@ p{
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  max-width: 70ch;
+  color: #999999;
   text-align: center;
 }
 
@@ -70,11 +72,17 @@ li{
   font-weight: 400;
   font-style: normal;
   font-size: 60px;
-  letter-spacing: 10px;
   text-align: center;
   color: #E8AFA9;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 70px;
+}
+
+#test{
+  text-align: center;
+  margin: auto;
+  margin-top:20px;
+  line-height: 40px;
 }
 
 #FunFacts{
