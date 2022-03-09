@@ -157,6 +157,13 @@ a:hover{
     justify-content: center;
     align-content: center;
   }
+
+  .grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
   a:link, a:visited{
     padding: 15px 20px;
   }
