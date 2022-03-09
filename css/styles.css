@@ -107,6 +107,10 @@ li{
   text-align: center;
 }
 
+#journey{
+  width: 80%;
+}
+
 #Contact{
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
@@ -153,7 +157,13 @@ a:hover{
     justify-content: center;
     align-content: center;
   }
-}
+
+  #journey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
 @media screen and (max-width: 600px){
   #EricaHung{
     display: flex;
@@ -164,6 +174,12 @@ a:hover{
   }
   #NavBar{
     font-size: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  #journey{
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
