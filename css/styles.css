@@ -153,10 +153,7 @@ textarea{
   text-align:center;
 }
 
-button{
-  appearance:none;
-  -webkit-appearance:none;
-
+input[type=button]{
   padding:10px;
   border:none;
   background-color: #E8AFA9;
@@ -170,7 +167,10 @@ button{
   font-size: 15px;
   margin-top: 0px;
   border-radius: 12px;
+}
 
+input[type=button]:hover{
+  background-color: #FFFFFF;
 }
 
 a:link, a:visited{
