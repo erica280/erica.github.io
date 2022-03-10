@@ -187,6 +187,7 @@ a:link, a:visited{
   color: #FFFFFF;
   background-color: #E8AFA9;
   padding: 20px 30px;
+  border-radius: 5px;
   text-decoration: none;
   display: inline-block;
 }
