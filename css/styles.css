@@ -52,10 +52,9 @@ h4{
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #E8AFA9;
+  text-align: center;
 }
 
 li {
@@ -64,6 +63,7 @@ li {
   font-weight: 400;
   font-style: normal;
   font-size: 17px;
+  text-align: center;
 }
 
 li a, .dropbtn {
@@ -286,6 +286,10 @@ input[type=button]:hover{
     font-size: 16px;
   }
 
+  #AboutMe{
+    font-size: 20px;
+  }
+
   .grid-container{
     display: flex;
     flex-wrap: wrap;
@@ -301,6 +305,6 @@ input[type=button]:hover{
   }
 
   p{
-    font-size: 13px;
+    font-size: 17px;
   }
 }
