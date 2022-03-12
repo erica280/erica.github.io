@@ -295,16 +295,11 @@ input[type=button]:hover{
   a:link, a:visited{
     padding: 15px 20px;
   }
-  #AboutMe{
-    font-size: 30px;
+
+  #Contact{
+    font-size: 20px;
   }
 
-  #FunFacts{
-    font-size: 15px;
-  }
-  #Contact{
-    font-size: 15px;
-  }
   p{
     font-size: 13px;
   }
