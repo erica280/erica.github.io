@@ -213,39 +213,6 @@ input[type=button]:hover{
   background-color: #FFC1BA;
 }
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: 400px 400px;
-  grid-auto-rows: (600px, auto);
-  text-align: center;
-  grid-gap: 15px;
-  margin-top: 70px;
-}
-
-.grid-container2 {
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-auto-rows: (600px, auto);
-  grid-row: 3 / span 2
-  text-align: center;
-  grid-gap: 15px;
-}
-
-.grid-item {
-  padding: 100px;
-  font-size: 30px;
-  text-align: center;
-  width: 400px;
-  padding:0;
-}
-
-.grid-item2 {
-  padding: 100px;
-  font-size: 30px;
-  text-align: center;
-  width: 400px;
-  grid-column: 2/3;
-} */
 
 .grid-container {
   display: grid;
@@ -277,12 +244,6 @@ input[type=button]:hover{
     justify-content: center;
     align-content: center;
   }
-  #NavBar{
-    font-size: 22px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
 
   #journey{
     display: flex;
@@ -306,12 +267,7 @@ input[type=button]:hover{
     justify-content: center;
     align-content: center;
   }
-  #NavBar{
-    font-size: 17px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
+
   #journey{
     display: flex;
     flex-wrap: wrap;
@@ -340,12 +296,16 @@ input[type=button]:hover{
     padding: 15px 20px;
   }
   #AboutMe{
-    font-size: 15px;
+    font-size: 30px;
   }
+
   #FunFacts{
     font-size: 15px;
   }
   #Contact{
     font-size: 15px;
+  }
+  p{
+    font-size: 13px;
   }
 }
