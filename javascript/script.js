@@ -11,6 +11,10 @@ p.addEventListener("mouseout", function(){
 
 var button = document.querySelector('button');
 var box = document.getElementById('changeMe');
+//
+// button.addEventListener("click"), function(){
+//   box.style.background = "#E8AFA9"
+// });
 
 function changeColor(){
   if(box.style.background == 'lightpink'){
@@ -19,11 +23,3 @@ function changeColor(){
     box.style.background = 'lightpink';
   }
 }
-
-// function changeColor(){
-//   if(box.style.background == 'lightpink'){
-//     box.style.background = 'lightblue';
-//   }else{
-//     box.style.background = 'lightpink';
-//   }
-// }

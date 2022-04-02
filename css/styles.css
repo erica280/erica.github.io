@@ -238,9 +238,9 @@ input[type=button]:hover{
 
 #paragraph{
   background: #E8AFA9;
-  width: 120px;
-  height: 50px;
-  padding: 10px;
+  width: 150px;
+  height: 60px;
+  padding: 30px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -248,8 +248,7 @@ input[type=button]:hover{
 #changeMe{
   width: 200px;
   height: 200px;
-  background: lightpink;
-  margin-top: 10px;
+  background: #FFC1BA;
 }
 
 @media screen and (max-width: 1920px){
