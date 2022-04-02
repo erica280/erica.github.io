@@ -1,3 +1,16 @@
+.box{
+  background-color: pink;
+  width: 100px;
+  height: 200px;
+  transition: 1s 2s 1s 2s;
+}
+
+.box:hover{
+  background-color: lightblue;
+  width:200px;
+  height:300px;
+}
+
 @keyframes slidein {
   from{
     font-size: 300%;
