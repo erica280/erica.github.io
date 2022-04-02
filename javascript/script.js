@@ -18,7 +18,7 @@ var box = document.getElementById('changeMe');
 
 function changeColor(){
   if(box.style.background == 'lightpink'){
-    box.style.background = 'lightblue';
+    box.style.background = 'lightgray';
   }else{
     box.style.background = 'lightpink';
   }
