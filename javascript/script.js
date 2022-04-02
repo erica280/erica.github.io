@@ -2,11 +2,11 @@ var p = document.querySelector('p');
 var paragraph = document.getElementById('paragraph');
 
 p.addEventListener("mouseover", function(){
-  paragraph.style.background = "#FFC1BA"
+  paragraph.style.background = "#FFC1BA";
 });
 
 p.addEventListener("mouseout", function(){
-  paragraph.style.background = "#E8AFA9"
+  paragraph.style.background = "#E8AFA9";
 });
 
 var button = document.querySelector('button');

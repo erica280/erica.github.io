@@ -246,7 +246,7 @@ input[type=button]:hover{
 }
 
 #changeMe{
-  width: 500px;
+  width: 400px;
   height: 200px;
   background: lightpink;
 }
@@ -282,6 +282,7 @@ button{
     justify-content: center;
     align-content: center;
   }
+}
 
   /* #contactform{
   display: flex;
