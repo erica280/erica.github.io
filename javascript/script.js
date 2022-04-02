@@ -11,10 +11,6 @@ p.addEventListener("mouseout", function(){
 
 var button = document.querySelector('button');
 var box = document.getElementById('changeMe');
-//
-// button.addEventListener("click"), function(){
-//   box.style.background = "#E8AFA9"
-// });
 
 function changeColor(){
   if(box.style.background == 'lightpink'){
