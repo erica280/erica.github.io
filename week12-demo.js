@@ -24,5 +24,3 @@ function displayQuote(quote) {
 const endpoint = 'https://api.chucknorris.io/jokes/random';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
-
-}
