@@ -10,8 +10,8 @@ async function getQuote() {
     }
     const json = await response.json();
     console.log(json);
-    displayQuote(json.content);
-    displayAuthor(json.author);
+    displayQuote(json.message);
+    // displayAuthor(json.quoteauthor);
   }catch(err) {
     console.log(err)
     alert('Failed');
@@ -22,11 +22,11 @@ function displayQuote(quote) {
   quoteText.textContent = quote;
 }
 
-function displayAuthor(quote) {
-  const quoteText = document.querySelector('#author');
-  quoteText.textContent = quote;
-}
+// function displayAuthor(quote) {
+//   const quoteText = document.querySelector('#author');
+//   quoteText.textContent = quote;
+// }
 
-const endpoint = 'http://api.quotable.io/random';
+const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
