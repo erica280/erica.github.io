@@ -10,8 +10,7 @@ async function getQuote() {
     }
     const json = await response.json();
     console.log(json);
-    displayQuote(json.message);
-    // displayAuthor(json.quoteauthor);
+    displayQuote(json.value);
   }catch(err) {
     console.log(err)
     alert('Failed');
@@ -22,11 +21,8 @@ function displayQuote(quote) {
   quoteText.textContent = quote;
 }
 
-// function displayAuthor(quote) {
-//   const quoteText = document.querySelector('#author');
-//   quoteText.textContent = quote;
-// }
-
-const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
+const endpoint = 'https://api.chucknorris.io/jokes/random';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
+
+}
