@@ -30,6 +30,16 @@ h4{
   margin-top:0;
 }
 
+h5{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  max-width: 70ch;
+  color: #999999;
+  margin-left: 300px;
+}
+
 #EricaHung{
   font-family: scriptorama-markdown-jf, sans-serif;
   font-weight: 400;
@@ -38,7 +48,6 @@ h4{
   letter-spacing: 12px;
   text-align: center;
   color: #E8AFA9;
-
 }
 
 #subtitle{
@@ -212,6 +221,47 @@ input[type=button]{
 input[type=button]:hover{
   background-color: #FFC1BA;
 }
+
+label{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 500px;
+  color: #999999;
+}
+
+#us{
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#uk{
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.story{
+  margin-left: 300px;
+}
+
+#name{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  margin-top:100px;
+  color: #999999;
+}
+
+#btn{
+  text-align: center;
+}
+
 
 
 .grid-container {
