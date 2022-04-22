@@ -65,10 +65,10 @@ console.log(com.employees[3]);
    "employees":[
      {
        "first_name": "Sam",
-       "department": "HR",
-       "designation": "Executive",
+       "department": "Tech",
+       "designation": "Manager",
        "salary": 21200,
-       "raiseEligible": false
+       "raiseEligible": true
      },
      {
        "first_name": "Mary",
@@ -105,7 +105,7 @@ console.log(company.employees[2]);
  *
  * Print updated JSON to console.
  **/
-
+console.log("----PROBLEM 3----")
 // const newHire{
 //    "first_name": "Anna",
 //    "department": "Tech",
@@ -114,26 +114,26 @@ console.log(company.employees[2]);
 //    "raise eligible": false
 //  }
 //
-//  function addEmployee(obj) {
-//    newHire.push()
-//    let company = company.employees.push(newHire);
+// let company = company.employees.push(newHire);
+// function addEmployee(obj) {
+//   newHire.push()
 
 //  }
 // console.log(addEmployee);
 
-function addEmployee(obj, first_name, department, designation, salary, raiseEligble){
-  let newHire = {
-    "name": first_name,
-    "dept": department,
-    "desig": designation,
-    "sal": salary,
-    "rElgible": raiseEligible
-  };
-​
-  obj['employees'].push(newHire);
-}
-​
-addEmployee(company, "Anna", "Tech", "Executive", 25600, false);
+// function addEmployee(obj, first_name, department, designation, salary, raiseEligble){
+//   let newHire = {
+//     "name": first_name,
+//     "dept": department,
+//     "desig": designation,
+//     "sal": salary,
+//     "rElgible": raiseEligible
+//   };
+// ​
+//   obj['employees'].push(newHire);
+// }
+// ​
+// addEmployee(company, "Anna", "Tech", "Executive", 25600, false);
 
 
 /**
@@ -144,25 +144,35 @@ addEmployee(company, "Anna", "Tech", "Executive", 25600, false);
  * Print total salary to console.
  **/
 
+console.log("----PROBLEM 4----");
 
-for (const i in company.employees){
-  console.log(const[i] company.employees ++ salary);
+let money = 0;
+for (const i in com.employees){
+  money+=com.employees[i].salary
 }
-
-
+console.log(money);
 
 /**
  * Problem 5.
  *
  * It's raise time. If an employee is raise eligible, increase their salary by 10%.
  * Given the JSON of the company and its employees, write a function to update the salary
- * for each employee who is raised eligible, then set their eligibility to false.
+ * for each employee who is raise eligible, then set their eligibility to false.
  *
  * Print names of employees who got a raise to console, list original and new salary.
  **/
+console.log("----PROBLEM 5----");
 
+function increaseSalary(obj){
+  for (const i in com.employees){
+    if(com.employees[i].raiseEligible){
+        com.employees[i].salary*=1.10
+        com.employees[i].raiseEligible=false
+    }
+  }
+}
 
-
+console.log(com.employees);
 
 /**
  * Problem 6.
@@ -174,3 +184,5 @@ for (const i in company.employees){
  *
  * Print updated JSON to console.
  **/
+
+console.log("----PROBLEM 6----")
