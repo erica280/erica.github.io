@@ -121,19 +121,19 @@ console.log("----PROBLEM 3----")
 //  }
 // console.log(addEmployee);
 
-// function addEmployee(obj, first_name, department, designation, salary, raiseEligble){
-//   let newHire = {
-//     "name": first_name,
-//     "dept": department,
-//     "desig": designation,
-//     "sal": salary,
-//     "rElgible": raiseEligible
-//   };
-// ​
-//   obj['employees'].push(newHire);
-// }
-// ​
-// addEmployee(company, "Anna", "Tech", "Executive", 25600, false);
+function addEmployee(obj, first_name, department, designation, salary, raiseEligble){
+  let newHire = {
+    "name": first_name,
+    "dept": department,
+    "desig": designation,
+    "sal": salary,
+    "rElgible": raiseEligible
+  };
+​
+  obj['employees'].push(newHire);
+}
+​
+addEmployee(company, "Anna", "Tech", "Executive", 25600, false);
 
 
 /**
