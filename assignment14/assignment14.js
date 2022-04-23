@@ -186,3 +186,42 @@ console.log(com.employees);
  **/
 
 console.log("----PROBLEM 6----")
+
+function addWFH(obj){
+  let company = {
+    "employees":[
+      {
+        "first_name": "Sam",
+        "department": "Tech",
+        "designation": "Manager",
+        "salary": 21200,
+        "raiseEligible": true,
+        "wfh": true
+      },
+      {
+        "first_name": "Mary",
+        "department": "Finance",
+        "designation": "Trainee",
+        "salary": 18500,
+        "raiseEligible": true,
+        "wfh": false
+      },
+      {
+        "first_name": "Bill",
+        "department": "HR",
+        "designation": "Executive",
+        "salary": 21200,
+        "raiseEligible": false,
+        "wfh": false
+      }
+      {
+        "first_name": "Anna",
+        "department": "Tech",
+        "designation": "Executive",
+        "salary": 25600,
+        "raiseEligible": false,
+        "wfh": true
+      }
+  }
+
+console.log(company.employees);
