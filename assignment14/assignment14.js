@@ -120,7 +120,6 @@ console.log(money);
 
 
 
-
  //PROBLEM 5
 console.log("----PROBLEM 5----");
 
@@ -132,8 +131,6 @@ console.log("----PROBLEM 5----");
   }
 
 console.log(com.employees);
-
-
 
 
 
