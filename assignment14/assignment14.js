@@ -1,13 +1,4 @@
-/**
- * Problem 1.
- * Create JSON for each employee with the following details (first name, department, designation, salary, raise eligible)
- * Sam, Tech, Manager, 40000, true
- * Mary, Finance, Trainee, 18500, true
- * Bill, HR, Executive, 21200, false
- *
- * Print JSON(s) to console.
- **/
-
+//PROBLEM 1
 let com = {
   "comName": "Apple",
   "employees":[
@@ -50,15 +41,10 @@ console.log(com.employees[3]);
 //console.log(company.employees[0].fav_food);
 
 
-/**
- * Problem 2.
- *
- * Create JSON for the company with the following details (companyName, website, employees)
- * Tech Stars, www.techstars.site, array of Employees
- *
- * Print JSON to console.
- **/
 
+
+
+//PROBLEM 2
  let company = {
    "companyName": "Tech Stars",
    "website": "www.techstars.site",
@@ -67,7 +53,7 @@ console.log(com.employees[3]);
        "first_name": "Sam",
        "department": "Tech",
        "designation": "Manager",
-       "salary": 21200,
+       "salary": 40000,
        "raiseEligible": true
      },
      {
@@ -95,54 +81,33 @@ console.log(company.employees[1]);
 console.log(company.employees[2]);
 
 
-/**
- * Problem 3.
- *
- * A new employee has joined the company. Update the JSON from problems 1 and 2 to reflect the addition of:
- * Anna, Tech, Executive, 25600, false
- *
- * Write function to add a new employee
- *
- * Print updated JSON to console.
- **/
+
+
+
+
+//PROBLEM 3
 console.log("----PROBLEM 3----")
-// const newHire{
-//    "first_name": "Anna",
-//    "department": "Tech",
-//    "designation": "Executive",
-//    "salary": 25600,
-//    "raise eligible": false
-//  }
-//
-// let company = company.employees.push(newHire);
-// function addEmployee(obj) {
-//   newHire.push()
 
-//  }
-// console.log(addEmployee);
-
-function addEmployee(obj, first_name, department, designation, salary, raiseEligble){
-  let newHire = {
-    "name": first_name,
+function addEmployee(first_name, department, designation, salary, raiseEligible){
+  const newHire = {
+    "first_name": first_name,
     "dept": department,
-    "desig": designation,
-    "sal": salary,
-    "rElgible": raiseEligible
+    "design": designation,
+    "salary": salary,
+    "raiseEligible": raiseEligible,
   };
-​
-  obj['employees'].push(newHire);
+  company.employees.push(newHire);
 }
-​
-addEmployee(company, "Anna", "Tech", "Executive", 25600, false);
+
+addEmployee('Anna', 'Tech', 'Executive', 25600, false);
+
+console.log(company);
 
 
-/**
- * Problem 4.
- *
- * Given the JSON for the company, calculate the total salary for all company employees.
- *
- * Print total salary to console.
- **/
+
+
+
+//PROBLEM 4
 
 console.log("----PROBLEM 4----");
 
@@ -152,76 +117,38 @@ for (const i in com.employees){
 }
 console.log(money);
 
-/**
- * Problem 5.
- *
- * It's raise time. If an employee is raise eligible, increase their salary by 10%.
- * Given the JSON of the company and its employees, write a function to update the salary
- * for each employee who is raise eligible, then set their eligibility to false.
- *
- * Print names of employees who got a raise to console, list original and new salary.
- **/
+
+
+
+
+ //PROBLEM 5
 console.log("----PROBLEM 5----");
 
 function increaseSalary(obj){
-  for (const i in com.employees){
-    if(com.employees[i].raiseEligible){
-        com.employees[i].salary*=1.10
-        com.employees[i].raiseEligible=false
+  return obj*1.10;
+}
+
+  for (var i=0; i<com.employees.length; i++){
+    if (com.employees[i].raiseEligible){
+      com.employees[i].salary*=1.10;
+      com.employees[i].raiseEligible=false;
     }
   }
-}
 
 console.log(com.employees);
 
-/**
- * Problem 6.
- *
- * Some employees have decided to work from home. The following array indicates who is working from home.
- * Use the array to update the company JSON. For each employee, add another property called 'wfh' and set it to true or false
- *
- * Working from home: ['Anna', 'Sam']
- *
- * Print updated JSON to console.
- **/
 
+
+
+
+// PROBLEM 6
 console.log("----PROBLEM 6----")
 
-function addWFH(obj){
-  let company = {
-    "employees":[
-      {
-        "first_name": "Sam",
-        "department": "Tech",
-        "designation": "Manager",
-        "salary": 21200,
-        "raiseEligible": true,
-        "wfh": true
-      },
-      {
-        "first_name": "Mary",
-        "department": "Finance",
-        "designation": "Trainee",
-        "salary": 18500,
-        "raiseEligible": true,
-        "wfh": false
-      },
-      {
-        "first_name": "Bill",
-        "department": "HR",
-        "designation": "Executive",
-        "salary": 21200,
-        "raiseEligible": false,
-        "wfh": false
-      }
-      {
-        "first_name": "Anna",
-        "department": "Tech",
-        "designation": "Executive",
-        "salary": 25600,
-        "raiseEligible": false,
-        "wfh": true
-      }
+const wfHome = ['Anna', 'Sam'];
+function addWFH(){
+  for (let i = 0; i < company.employees.length; i++){
+    company.employees[i].wfh = wfHome.includes(company.employees[i].first_name);
   }
-
+}
+addWFH();
 console.log(company.employees);
