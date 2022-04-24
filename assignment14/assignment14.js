@@ -124,10 +124,6 @@ console.log(money);
  //PROBLEM 5
 console.log("----PROBLEM 5----");
 
-function increaseSalary(obj){
-  return obj*1.10;
-}
-
   for (var i=0; i<com.employees.length; i++){
     if (com.employees[i].raiseEligible){
       com.employees[i].salary*=1.10;
