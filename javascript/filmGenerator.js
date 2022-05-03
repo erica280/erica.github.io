@@ -20,7 +20,6 @@ function displayFilm(film) {
 
 const endpoint = 'https://api.themoviedb.org/3/discover/movie?api_key=74d3057f71540a65a5b5bc0f2fa1d29c';
 const filmButton = document.querySelector('#js-new-film');
-getFilm(random_index);
 // var num = (Math.Floor(Math.random()*19);
 function myCallback(){
   const random_index = (Math.floor(Math.random() * 19));
