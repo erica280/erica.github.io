@@ -20,8 +20,9 @@ img{
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 75%;
+  width: 65%;
   margin: 0 auto;
+  margin-bottom: 0px;
 }
 
 h1{
@@ -40,6 +41,7 @@ h3{
 
 h4{
   margin-top:0;
+  margin-bottom: 100px;
 }
 
 h5{
@@ -67,8 +69,15 @@ h5{
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
-  text-align: center;
   color: #A1A1A1;
+  margin-left: 400px;
+}
+
+#arch_works{
+  font-family: scriptorama-markdown-jf, sans-serif;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 #FilmTitle{
@@ -123,15 +132,32 @@ h5{
   to {background-color: #B2DCFF;}
 }
 
+a:link{
+  color: #A1A1A1;
+  text-decoration: none;
+  font-family: freight-sans-pro, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+ a:visited{
+   text-decoration: none;
+   color: #A1A1A1;
+ }
+
+a:hover{
+  color: #E8AFA9;
+  text-decoration: none;
+  font-family: freight-sans-pro, sans-serif;
+}
+
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #E8AFA9;
-  text-align: center;
+  display: inline-flex;
 }
 
 li {
-  float: left;
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -145,40 +171,42 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #FFC1BA;
+  color: #E8AFA9;
 }
 
 li.dropdown {
-  display: inline-block;
+  display: flex;
+  color: #E8AFA9;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  margin-left: 545px;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12px;
 }
 
 .dropdown-content a {
-  color: black;
+  color: #A1A1A1;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
   display: block;
 }
+
+.dropdown-content a:hover {color: #E8AFA9}
+
 
 #AboutMe{
   font-family: scriptorama-markdown-jf, sans-serif;
@@ -196,17 +224,6 @@ li.dropdown {
   margin: auto;
   margin-top:20px;
   line-height: 40px;
-}
-
-#Works{
-  font-family: scriptorama-markdown-jf, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  text-align: center;
-  color: #E8AFA9;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
 }
 
 #FunFacts{
@@ -326,8 +343,6 @@ label{
   text-align: center;
 }
 
-
-
 .grid-container {
   display: grid;
   grid-template-columns: 400px 400px 400px;
@@ -381,6 +396,78 @@ button{
   border-radius: 12px;
 }
 
+.gallery img{
+  width: 650px;
+  padding: 50px;
+  filter: grayscale(100%);
+  transition: 1s;
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.description{
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  color: #A1A1A1;
+}
+
+.f_description{
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  color: #A1A1A1;
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+
+.film_works{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.film_works1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.film_works2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.film_title{
+  font-family: scriptorama-markdown-jf, sans-serif;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.navbar{
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #A1A1A1;
+  margin-left: 450px;
+  margin-bottom: 100px;
+}
+
 @media screen and (max-width: 1920px){
   #EricaHung{
     display: flex;
@@ -429,7 +516,7 @@ button{
   }
 
   #subtitle{
-    font-size: 16px;
+    font-size: 13px;
   }
 
   #Works{
@@ -445,9 +532,6 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-  }
-  a:link, a:visited{
-    padding: 15px 20px;
   }
 
   #Contact{
