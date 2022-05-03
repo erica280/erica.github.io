@@ -70,7 +70,32 @@ h5{
   font-style: normal;
   font-size: 25px;
   color: #A1A1A1;
-  margin-left: 400px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#explore{
+  font-family: scriptorama-markdown-jf, sans-serif;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#explorelinks{
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #A1A1A1;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #arch_works{
@@ -215,8 +240,8 @@ li.dropdown {
   font-size: 60px;
   text-align: center;
   color: #E8AFA9;
-  padding-bottom: 0;
-  margin-bottom: 70px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #Description{
@@ -516,7 +541,11 @@ button{
   }
 
   #subtitle{
-    font-size: 13px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #A1A1A1;
   }
 
   #Works{
@@ -540,5 +569,9 @@ button{
 
   p{
     font-size: 17px;
+  }
+
+  img{
+    width: 550px;
   }
 }
