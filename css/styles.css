@@ -84,6 +84,9 @@ h5{
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 #explorelinks{
@@ -179,7 +182,9 @@ a:hover{
 ul {
   list-style-type: none;
   overflow: hidden;
-  display: inline-flex;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 li {
@@ -188,6 +193,7 @@ li {
   font-style: normal;
   font-size: 17px;
   text-align: center;
+  justify-content: center;
 }
 
 li a, .dropbtn {
@@ -275,6 +281,12 @@ li.dropdown {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+}
+
+#navbar_arch{
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
 }
 
 input[type=text]{
@@ -554,6 +566,12 @@ button{
 
   #AboutMe{
     font-size: 20px;
+  }
+
+  #navbar_arch{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
   }
 
   .grid-container{
