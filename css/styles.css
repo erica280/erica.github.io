@@ -578,11 +578,11 @@ button{
   }
 
   #Works{
-    font-size: 20px;
+    font-size: 50px;
   }
 
   #AboutMe{
-    font-size: 20px;
+    font-size: 50px;
   }
 
   #navbar_arch{
@@ -656,5 +656,11 @@ button{
     color: #A1A1A1;
     margin-bottom: 70px;
     margin-top: 10px;
+  }
+
+  #explorelinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
